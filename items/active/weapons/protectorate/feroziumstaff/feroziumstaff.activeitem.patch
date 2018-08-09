@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/animationCustom/lights/glow/color/0",
+    "value": 60
+  },
+  {
+    "op": "replace",
+    "path": "/animationCustom/lights/glow/color/1",
+    "value": 120
+  },
+  {
+    "op": "replace",
+    "path": "/animationCustom/lights/glow/color/2",
+    "value": 100
+  }
+]
