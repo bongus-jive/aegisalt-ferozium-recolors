@@ -11,8 +11,8 @@
         "particles" : [
           {"particle" : {
             "type" : "ember",
-            "color" : [202, 253, 255],
-            "light" : [45, 90, 100],
+            "color" : [255, 181, 191],
+            "light" : [70, 10, 27],
             "destructionAction" : "shrink",
             "destructionTime" : 0.5,
             "layer" : "middle",
@@ -27,8 +27,8 @@
       }
     },
     {"op" : "copy", "from" : "/animationCustom/particleEmitters/physicalcharge/particles/0", "path" : "/animationCustom/particleEmitters/physicalcharge/particles/1"},
-    {"op" : "replace", "path" : "/animationCustom/particleEmitters/physicalcharge/particles/1/particle/color", "value" : [150, 253, 255]},
+    {"op" : "replace", "path" : "/animationCustom/particleEmitters/physicalcharge/particles/1/particle/color", "value" : [255, 88, 110]},
     
-    {"op": "replace", "path": "/animationCustom/lights/glow/color", "value": [60, 120, 100]}
+    {"op": "replace", "path": "/animationCustom/lights/glow/color", "value": [140, 20, 54]}
   ]
 ]
