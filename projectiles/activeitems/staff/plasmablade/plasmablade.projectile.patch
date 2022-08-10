@@ -1,0 +1,39 @@
+[
+  /*
+  [
+    {"op" : "test", "path" : "/periodicActions", "inverse":  true},
+    {"op" : "add", "path" : "/periodicActions", "value" : []}
+  ],
+  */
+  [
+    {"op" : "replace", "path" : "/lightColor", "value" : [60, 120, 100]},
+    {"op" : "remove", "path" : "/emitters/0"},
+    
+    {"op" : "replace", "path" : "/actionOnReap/1/body/0/specification", "value" : {
+      "type" : "ember",
+      "color" : [202, 253, 255],
+      "light" : [45, 90, 100],
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.5,
+      "layer" : "middle",
+      "fullbright" : true,
+      "timeToLive" : 0.5,
+      "variance" : {
+        "initialVelocity" : [2, 2],
+        "size" : 0.5
+      }
+    }},
+    {"op" : "copy", "from" : "/actionOnReap/1/body/0/specification", "path" : "/actionOnReap/1/body/1/specification"},
+    {"op" : "replace", "path" : "/actionOnReap/1/body/1/specification/color", "value" : [150, 253, 255]}
+    
+    /* this just doesnt fucking work?? reading it with root.assetJson shows its all there but it doesnt do anything
+    {"op" : "add", "path" : "/_pat_temp", "value" : {"action" : "particle", "time" : 0.05, "repeat" : true}},
+    
+    {"op" : "copy", "from" : "/actionOnReap/1/body/0/specification", "path" : "/_pat_temp/specification"},
+    {"op" : "copy", "from" : "/_pat_temp", "path" : "/periodicActions/-"},
+    
+    {"op" : "replace", "path" : "/_pat_temp/specification/color", "value" : [150, 253, 255]},
+    {"op" : "move", "from" : "/_pat_temp", "path" : "/periodicActions/-"}
+    */
+  ]
+]

@@ -27,8 +27,6 @@
       }
     },
     {"op" : "copy", "from" : "/animationCustom/particleEmitters/physicalcharge/particles/0", "path" : "/animationCustom/particleEmitters/physicalcharge/particles/1"},
-    {"op" : "replace", "path" : "/animationCustom/particleEmitters/physicalcharge/particles/1/particle/color", "value" : [150, 253, 255]},
-    
-    {"op": "replace", "path": "/animationCustom/lights/glow/color", "value": [60, 120, 100]}
+    {"op" : "replace", "path" : "/animationCustom/particleEmitters/physicalcharge/particles/1/particle/color", "value" : [150, 253, 255]}
   ]
 ]
