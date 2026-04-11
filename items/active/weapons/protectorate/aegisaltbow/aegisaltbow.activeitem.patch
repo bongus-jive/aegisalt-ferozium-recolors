@@ -1,5 +1,9 @@
 [
   [
+    { "op": "test", "path": "/animationCustom/lights", "inverse": true },
+    { "op": "add", "path": "/animationCustom/lights", "value": { } }
+  ],
+  [
     { "op": "test", "path": "/animationCustom/particleEmitters", "inverse": true },
     { "op": "add", "path": "/animationCustom/particleEmitters", "value": { } }
   ],
@@ -29,13 +33,7 @@
       }
     },
     { "op": "copy", "from": "/animationCustom/particleEmitters/bow/particles/0", "path": "/animationCustom/particleEmitters/bow/particles/1" },
-    { "op": "replace", "path": "/animationCustom/particleEmitters/bow/particles/1/particle/color", "value": [ 210, 232, 51 ] }
-  ],
-  [
-    { "op": "test", "path": "/animationCustom/lights", "inverse": true },
-    { "op": "add", "path": "/animationCustom/lights", "value": { } }
-  ],
-  [
+    { "op": "replace", "path": "/animationCustom/particleEmitters/bow/particles/1/particle/color", "value": [ 210, 232, 51 ] },
     { "op": "add", "path": "/animationCustom/lights/glow", "value": { "color": [ 90, 120, 50 ] } }
   ]
 ]
