@@ -1,32 +1,10 @@
 [
   { "op": "replace", "path": "/lightColor", "value": [ 90, 120, 50 ] },
-
-  {
-    "op": "replace",
-    "path": "/periodicActions/0/specification",
-    "value": {
-      "type": "ember",
-      "color": [ 238, 255, 114 ],
-      "light": [ 45, 60, 15 ],
-      "destructionAction": "shrink",
-      "destructionTime": 0.5,
-      "layer": "middle",
-      "fullbright": true,
-      "timeToLive": 0.5,
-      "variance": {
-        "initialVelocity": [ 2, 2 ],
-        "size": 0.5
-      }
-    }
-  },
-  { "op": "copy", "from": "/periodicActions/0/specification", "path": "/periodicActions/1/specification" },
-  { "op": "replace", "path": "/periodicActions/1/specification/color", "value": [ 210, 232, 51 ] },
-
-  { "op": "copy", "from": "/periodicActions/0/specification", "path": "/actionOnReap/0/body/0/specification" },
-  { "op": "copy", "from": "/periodicActions/1/specification", "path": "/actionOnReap/0/body/1/specification" },
-
-  { "op": "copy", "from": "/periodicActions/0/specification", "path": "/actionOnCollide/1/body/0/specification" },
-  { "op": "copy", "from": "/periodicActions/1/specification", "path": "/actionOnCollide/1/body/1/specification" },
-
-  { "op": "remove", "path": "/emitters/0" }
+  { "op": "remove", "path": "/emitters/0" },
+  { "op": "replace", "path": "/actionOnReap/0/body/0/specification", "value": "pat_energyblade_aegisalt" },
+  { "op": "replace", "path": "/actionOnReap/0/body/1/specification", "value": "pat_energyblade_aegisalt2" },
+  { "op": "replace", "path": "/actionOnCollide/1/body/0/specification", "value": "pat_energyblade_aegisalt" },
+  { "op": "replace", "path": "/actionOnCollide/1/body/1/specification", "value": "pat_energyblade_aegisalt2" },
+  { "op": "replace", "path": "/periodicActions/0/specification", "value": "pat_energyblade_aegisalt" },
+  { "op": "replace", "path": "/periodicActions/1/specification", "value": "pat_energyblade_aegisalt2" }
 ]

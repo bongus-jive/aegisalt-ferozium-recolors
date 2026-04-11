@@ -1,24 +1,6 @@
 [
   { "op": "replace", "path": "/lightColor", "value": [ 60, 120, 100 ] },
   { "op": "remove", "path": "/emitters/0" },
-  {
-    "op": "replace",
-    "path": "/actionOnReap/1/body/0/specification",
-    "value": {
-      "type": "ember",
-      "color": [ 202, 253, 255 ],
-      "light": [ 45, 90, 100 ],
-      "destructionAction": "shrink",
-      "destructionTime": 0.5,
-      "layer": "middle",
-      "fullbright": true,
-      "timeToLive": 0.5,
-      "variance": {
-        "initialVelocity": [ 2, 2 ],
-        "size": 0.5
-      }
-    }
-  },
-  { "op": "copy", "from": "/actionOnReap/1/body/0/specification", "path": "/actionOnReap/1/body/1/specification" },
-  { "op": "replace", "path": "/actionOnReap/1/body/1/specification/color", "value": [ 150, 253, 255 ] }
+  { "op": "replace", "path": "/actionOnReap/1/body/0/specification", "value": "pat_energyblade_ferozium" },
+  { "op": "replace", "path": "/actionOnReap/1/body/1/specification", "value": "pat_energyblade_ferozium2" }
 ]

@@ -4,33 +4,16 @@
     { "op": "add", "path": "/animationCustom/particleEmitters", "value": { } }
   ],
   [
+    { "op": "replace", "path": "/animationCustom/lights/glow/color", "value": [ 60, 120, 100 ] },
     {
       "op": "add",
       "path": "/animationCustom/particleEmitters/physicalcharge",
       "value": {
         "particles": [
-          {
-            "particle": {
-              "type": "ember",
-              "color": [ 202, 253, 255 ],
-              "light": [ 45, 90, 100 ],
-              "destructionAction": "shrink",
-              "destructionTime": 0.5,
-              "layer": "middle",
-              "fullbright": true,
-              "timeToLive": 0.5,
-              "variance": {
-                "initialVelocity": [ 2, 2 ],
-                "size": 0.5
-              }
-            }
-          }
+          { "particle": "pat_energyblade_ferozium" },
+          { "particle": "pat_energyblade_ferozium2" }
         ]
       }
-    },
-    { "op": "copy", "from": "/animationCustom/particleEmitters/physicalcharge/particles/0", "path": "/animationCustom/particleEmitters/physicalcharge/particles/1" },
-    { "op": "replace", "path": "/animationCustom/particleEmitters/physicalcharge/particles/1/particle/color", "value": [ 150, 253, 255 ] },
-
-    { "op": "replace", "path": "/animationCustom/lights/glow/color", "value": [ 60, 120, 100 ] }
+    }
   ]
 ]
