@@ -1,12 +1,75 @@
 [
-  {
-    "op": "replace",
-    "path": "/primaryAbility/chain/segmentImage",
-    "value": "/items/active/weapons/protectorate/aegisaltpistol/beam.png?replace;FFFFFFCE=FFFFE4;D29CE7CE=D2E833;A355C0CE=A5C932"
-  },
-  {
-    "op": "replace",
-    "path": "/primaryAbility/chain/endSegmentImage",
-    "value": "/items/active/weapons/protectorate/aegisaltpistol/beamend.png?replace;FFFFFFA5=FFFFE4CC;D29CE7A5=D2E833CC;A355C0A5=A5C932CC;FFFFFF7B=FFFFE499;D29CE77B=D2E83399;A355C07B=A5C93299;FFFFFF52=FFFFE466;D29CE752=D2E83366;A355C052=A5C93266;FFFFFF29=FFFFE433;D29CE729=D2E83333;A355C029=A5C93233;"
-  }
+  [
+    { "op": "test", "path": "/animationCustom/lights", "inverse": true },
+    { "op": "add", "path": "/animationCustom/lights", "value": { } }
+  ],
+  [
+    { "op": "test", "path": "/animationCustom/particleEmitters", "inverse": true },
+    { "op": "add", "path": "/animationCustom/particleEmitters", "value": { } }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/animationCustom/lights/muzzleFlash",
+      "value": {
+        "active": true,
+        "color": [ 90, 120, 50 ],
+        "transformationGroups": [ "muzzle" ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/animationCustom/particleEmitters/beamCollision",
+      "value": {
+        "particles": [
+          {
+            "particle": {
+              "type": "animated",
+              "animation": "/animations/energybeamimpact/energybeamimpact.animation?replace;FFF=FFFFE4;D29CE7=D2E833;A355C0=A5C932",
+              "size": 1,
+              "light": [ 45, 60, 15 ],
+              "position": [ 0, 0 ],
+              "destructionAction": "shrink",
+              "destructionTime": 0.25,
+              "fade": 1,
+              "layer": "middle",
+              "fullbright": true,
+              "timeToLive": 0.25,
+              "variance": {
+                "rotation": 180
+              }
+            }
+          },
+          {
+            "particle": {
+              "type": "ember",
+              "color": [ 238, 255, 114 ],
+              "light": [ 45, 60, 15 ],
+              "destructionAction": "shrink",
+              "destructionTime": 0.5,
+              "layer": "middle",
+              "fullbright": true,
+              "timeToLive": 0.5,
+              "variance": {
+                "initialVelocity": [ 2, 2 ],
+                "size": 0.5
+              }
+            }
+          }
+        ]
+      }
+    },
+    { "op": "copy", "from": "/animationCustom/particleEmitters/beamCollision/particles/1", "path": "/animationCustom/particleEmitters/beamCollision/particles/2" },
+    { "op": "replace", "path": "/animationCustom/particleEmitters/beamCollision/particles/2/particle/color", "value": [ 210, 232, 51 ] },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/chain/segmentImage",
+      "value": "/items/active/weapons/protectorate/aegisaltpistol/beam.png?replace;FFFFFFCE=FFFFE4;D29CE7CE=D2E833;A355C0CE=A5C932"
+    },
+    {
+      "op": "replace",
+      "path": "/primaryAbility/chain/endSegmentImage",
+      "value": "/items/active/weapons/protectorate/aegisaltpistol/beamend.png?replace;FFFFFFA5=FFFFE4CC;D29CE7A5=D2E833CC;A355C0A5=A5C932CC;FFFFFF7B=FFFFE499;D29CE77B=D2E83399;A355C07B=A5C93299;FFFFFF52=FFFFE466;D29CE752=D2E83366;A355C052=A5C93266;FFFFFF29=FFFFE433;D29CE729=D2E83333;A355C029=A5C93233;"
+    }
+  ]
 ]
