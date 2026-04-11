@@ -1,29 +1,8 @@
 [
   { "op": "replace", "path": "/lightColor", "value": [ 0, 90, 140 ] },
-
-  {
-    "op": "replace",
-    "path": "/periodicActions/0/specification",
-    "value": {
-      "type": "ember",
-      "color": [ 96, 184, 235 ],
-      "light": [ 0, 45, 70 ],
-      "destructionAction": "shrink",
-      "destructionTime": 0.5,
-      "layer": "middle",
-      "fullbright": true,
-      "timeToLive": 0.5,
-      "variance": {
-        "initialVelocity": [ 2, 2 ],
-        "size": 0.5
-      }
-    }
-  },
-  { "op": "copy", "from": "/periodicActions/0/specification", "path": "/periodicActions/1/specification" },
-  { "op": "replace", "path": "/periodicActions/1/specification/color", "value": [ 0, 140, 217 ] },
-
-  { "op": "copy", "from": "/periodicActions/0/specification", "path": "/actionOnReap/1/body/0/specification" },
-  { "op": "copy", "from": "/periodicActions/1/specification", "path": "/actionOnReap/1/body/1/specification" },
-
-  { "op": "remove", "path": "/emitters/0" }
+  { "op": "remove", "path": "/emitters/0" },
+  { "op": "replace", "path": "/actionOnReap/1/body/0/specification", "value": "pat_energyblade_cerulium" },
+  { "op": "replace", "path": "/actionOnReap/1/body/1/specification", "value": "pat_energyblade_cerulium2" },
+  { "op": "replace", "path": "/periodicActions/0/specification", "value": "pat_energyblade_cerulium" },
+  { "op": "replace", "path": "/periodicActions/1/specification", "value": "pat_energyblade_cerulium2" }
 ]
