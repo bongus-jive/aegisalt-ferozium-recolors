@@ -1,12 +1,12 @@
 [
   {
-    "op" : "replace",
-    "path" : "/primaryAbility/chain/segmentImage",
-    "value" : "/items/active/weapons/protectorate/aegisaltpistol/beam.png?replace;FFFFFFCE=FFFFE4;D29CE7CE=D2E833;A355C0CE=A5C932"
+    "op": "replace",
+    "path": "/primaryAbility/chain/segmentImage",
+    "value": "/items/active/weapons/protectorate/aegisaltpistol/beam.png?replace;FFFFFFCE=FFFFE4;D29CE7CE=D2E833;A355C0CE=A5C932"
   },
   {
-    "op" : "replace",
-    "path" : "/primaryAbility/chain/endSegmentImage",
-    "value" : "/items/active/weapons/protectorate/aegisaltpistol/beamend.png?replace;FFFFFFA5=FFFFE4CC;D29CE7A5=D2E833CC;A355C0A5=A5C932CC;FFFFFF7B=FFFFE499;D29CE77B=D2E83399;A355C07B=A5C93299;FFFFFF52=FFFFE466;D29CE752=D2E83366;A355C052=A5C93266;FFFFFF29=FFFFE433;D29CE729=D2E83333;A355C029=A5C93233;"
+    "op": "replace",
+    "path": "/primaryAbility/chain/endSegmentImage",
+    "value": "/items/active/weapons/protectorate/aegisaltpistol/beamend.png?replace;FFFFFFA5=FFFFE4CC;D29CE7A5=D2E833CC;A355C0A5=A5C932CC;FFFFFF7B=FFFFE499;D29CE77B=D2E83399;A355C07B=A5C93299;FFFFFF52=FFFFE466;D29CE752=D2E83366;A355C052=A5C93266;FFFFFF29=FFFFE433;D29CE729=D2E83333;A355C029=A5C93233;"
   }
 ]
