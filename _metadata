@@ -1,10 +1,11 @@
 {
-  "version" : "1.1.2",
   "author" : "patman",
-  "tags" : "Miscellaneous|Weapons",
-  "description" : "makes aegisalt weapons made of aegisalt and the ferozium staff made of ferozium\n\nwhy the hell did they all shoot purple. they arent violium.\nwhy was the staff made of rubium. thats not a thing anymore you cant do that\n\nchuck;e fish\n\n\n[url=https://discord.gg/GdsQSgV][img]https://i.imgur.com/wXjYMqP.gif[/img][/url]\n[url=https://www.patreon.com/pathiccstar][img]https://i.imgur.com/uyG8oTa.gif[/img][/url]\n[url=https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QCU2R9GP][img]https://i.imgur.com/xVfcRRH.gif[/img][/url]\n\n\nversion that keeps the aegisalt bow blue and the ferozium staff red, but still makes them good\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2847372958",
-  "name" : "pat_aegisaltferozium",
+  "description" : "makes aegisalt weapons made of aegisalt and the ferozium staff made of ferozium",
   "friendlyName" : "aegisalt and ferozium weapons but good",
+  "link" : "steam://url/CommunityFilePage/1471326376",
+  "name" : "pat_aegisaltferozium",
   "steamContentId" : "1471326376",
-  "link" : "steam://url/CommunityFilePage/1471326376"
+  "steamDescription" : "makes aegisalt weapons made of aegisalt and the ferozium staff made of ferozium\n\nwhy the hell did they all shoot purple. they arent violium.\nwhy was the staff made of rubium. thats not a thing anymore you cant do that\n\nchuck;e fish\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/aegisalt-ferozium-recolors\n\n\nversion that keeps the aegisalt bow blue and the ferozium staff red, but still makes them good\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2847372958",
+  "tags" : "Miscellaneous|Weapons",
+  "version" : "1.2"
 }
