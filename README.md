@@ -8,3 +8,6 @@ the alt version recolors the energy to match the weapon material
 workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1471326376
 
 alt workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2847372958
+
+
+<sub>cool tip don't use branches like this. it's nasty</sub>
