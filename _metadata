@@ -1,10 +1,11 @@
 {
-  "version" : "1.1.2_alt",
   "author" : "patman",
-  "tags" : "Miscellaneous|Weapons",
-  "description" : "makes the aegisalt and ferozium weapons actually use their colors instead of just Purpling everything\n\nSome People (armok) got upset that i recolored a bow wrong four years ago\n\"yes the bow made out of green and yellow is actually blue and shoots purple\"\n\n\n[url=https://discord.gg/GdsQSgV][img]https://i.imgur.com/wXjYMqP.gif[/img][/url]\n[url=https://www.patreon.com/pathiccstar][img]https://i.imgur.com/uyG8oTa.gif[/img][/url]\n[url=https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QCU2R9GP][img]https://i.imgur.com/xVfcRRH.gif[/img][/url]\n\n\nversion that makes the weapons actually made out of the material they are made of\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1471326376",
-  "name" : "pat_aegisaltferozium2",
+  "description" : "makes the aegisalt and ferozium weapons actually use their colors instead of just Purpling everything",
   "friendlyName" : "aegisalt and ferozium weapons but gooder",
+  "link" : "steam://url/CommunityFilePage/2847372958",
+  "name" : "pat_aegisaltferozium2",
   "steamContentId" : "2847372958",
-  "link" : "steam://url/CommunityFilePage/2847372958"
+  "steamDescription" : "makes the aegisalt and ferozium weapons actually use their colors instead of just Purpling everything\n\nSome People got upset that i recolored a bow wrong four years ago\n\"yes the bow made out of green and yellow is actually blue and shoots purple\"\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/aegisalt-ferozium-recolors/tree/alt\n\nversion that makes the weapons actually made out of the material they are made of\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1471326376",
+  "tags" : "Miscellaneous|Weapons",
+  "version" : "1.2_alt"
 }
